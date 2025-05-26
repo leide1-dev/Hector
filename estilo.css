@@ -1,1 +1,29 @@
-<p style="color:green;">Hola Mundo</p>
+/* Estilo oscuro tipo GitHub con texto verde */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0d1117;
+  color: #2ea043; /* verde GitHub */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 2rem;
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(1, 1, 1, 0.5);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2ea043; /* verde principal */
+}
+
+p {
+  font-size: 1.2rem;
+  color: #2ea043;
+}
